@@ -15,7 +15,6 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
-    /* le flex c'est pour les h1 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,10 +121,6 @@ footer p {
     width: 120px;
 }
 
-.livre img:hover {
-    transform: scale(1.2);
-}
-
 .liste {
     display: flex;
     flex-wrap: wrap;
@@ -140,9 +135,7 @@ footer p {
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 20px;
-    border: 1px solid rgb(148, 148, 148);
     margin-top: 10px;
-    box-shadow: -5px 5px rgba(158, 133, 118, 0.3);
     width: 40%;
     background-color: #3B302A;
 }
@@ -242,6 +235,9 @@ em {
     font-size: 1.4em;
 }
 
+a {
+  transition: all 0.3s ease;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1050px) {
     .links {
